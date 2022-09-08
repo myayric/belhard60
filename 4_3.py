@@ -4,7 +4,7 @@
 first_num = input("Please enter the first number: ")
 second_num = input("Please enter the second number ")
 third_num = input("Please enter the third number ")
-
+#Эта часть предназначена для нахождения нуля и подсчета десятичных чисел.
 zero_num = float(first_num) == 0 + float(second_num == 0) + float(third_num) == 0
 neg_num = first_num.count('-') + second_num.count('-') + third_num.count('-')
 pos_num = 3 - zero_num - neg_num
