@@ -11,3 +11,4 @@ pos_num = 3 - zero_num - neg_num
 print("Number of negative numbers is: ", neg_num)
 print("Number of positive numbers is: ", pos_num)
 print("Zero Number have: ", int(zero_num))
+#hj
