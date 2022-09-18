@@ -3,8 +3,9 @@
 # для этих ключей будут браться с клавиатуры..
 
 
-num = int(input("Enter the desired number: "))
-text = {i: {"name": input("\n\nEnter your name: "),
-            "email": input("Enter your Email: ")}
-        for i in range(0, num)}
-print("your file for name and Email is: \n", text)
+# num = int(input("Enter the desired number: "))
+# text = {i: {"name": input("\n\nEnter your name: "),
+#             "email": input("Enter your Email: ")}
+#         for i in range(0, num)}
+# print("your file for name and Email is: \n", text)
+
