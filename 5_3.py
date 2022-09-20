@@ -9,3 +9,4 @@ for i in range(2, num + 1):
     elif ent == 5:
         print()
         ent = 0
+
