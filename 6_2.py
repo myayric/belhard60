@@ -16,20 +16,20 @@ MORS_RUS = {'А': '.-', 'Б': '-...', 'Ц': '-.-.', 'Д': '-..', 'Е': '.', 'Ф'
             '7': '--...', '8': '---..', '9': '----.', }
 
 
-def en_mors(message):
-    morse = []
-    for char in message:
-        if char in MORS_ENG:
-            morse.append(MORS_ENG[char])
-    return " ".join(morse)
+def en_mors(text):
+    mors = []
+    for i in text:
+        if i in MORS_ENG:
+            mors.append(MORS_ENG[i])
+    return " ".join(mors)
 
 
-def rus_mors(message):
-    morse = []
-    for char in message:
-        if char in MORS_RUS:
-            morse.append(MORS_RUS[char])
-    return " ".join(morse)
+def rus_mors(text):
+    mors = []
+    for i in text:
+        if i in MORS_RUS:
+            mors.append(MORS_RUS[i])
+    return " ".join(mors)
 
 
 def main():
@@ -41,16 +41,16 @@ def main():
     if res == "1":
         print("Enter English text: ")
         english = input("> ").upper()
-        morse = en_mors(english)
+        mors = en_mors(english)
         print("### English version ###")
-        print(morse)
+        print(mors)
 
     elif res == "2":
         print("Введите русский текст: ")
         russian = input("> ").upper()
-        morse = rus_mors(russian)
+        mors = rus_mors(russian)
         print("### русская версия ###")
-        print(morse)
+        print(mors)
 
 
 if __name__ == "__main__":
