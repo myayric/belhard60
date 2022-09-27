@@ -4,7 +4,7 @@
 
 lst = []
 num_el = int(input("Enter number of elements : "))
-print('#type the number and press Enter#')
+print('#type the numbers and press Enter#')
 for i in range(0, num_el):
     ele = int(input())
     lst.append(ele)
