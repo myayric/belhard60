@@ -11,6 +11,6 @@ for i in range(0, num_el):
 print("Your list of numbers is \n>>>", lst)
 while True:
     n = int(input(f"Choose your number between 1 to {num_el}\n>>> "))
-    if n == num_el:
+    if n <= num_el:
         break
 print(lst[len(lst) - n:] + lst[0:len(lst) - n])
