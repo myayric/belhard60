@@ -32,7 +32,7 @@ def rus_mors(text):
     return " ".join(mors)
 
 
-def main():
+def basic():
     while True:
         res = input("Please select your language:\n English (1) \n Русский (2) \n >>> ").upper()
         if res == "1" or res == "2":
@@ -54,4 +54,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    basic()
