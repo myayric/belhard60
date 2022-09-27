@@ -9,5 +9,8 @@ for i in range(0, num_el):
     ele = int(input())
     lst.append(ele)
 print("Your list of numbers is \n>>>", lst)
-n = int(input(f"Choose your number between 1 to {num_el}\n>>> "))
+while True:
+    n = int(input(f"Choose your number between 1 to {num_el}\n>>> "))
+    if n == num_el:
+        break
 print(lst[len(lst) - n:] + lst[0:len(lst) - n])
