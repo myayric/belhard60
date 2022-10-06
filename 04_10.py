@@ -56,6 +56,3 @@ conn.commit()
 # ''')
 # for user in cur.fetchall():
 #     print(user)
-
-def losd_info()->tuple:
-    with open('input')
